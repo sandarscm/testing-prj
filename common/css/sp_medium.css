@@ -1,0 +1,829 @@
+@media only screen and (max-width:640px) {
+    .pc {
+        display: none;
+    }
+    .sp {
+        display: block;
+    }
+    .fll, .flr {
+        float: none !important;
+    }
+    .bx-wrapper {
+        position: relative;
+        margin: 40px auto 40px !important;
+        padding: 0;
+        *zoom: 1;
+    }
+    .more img {
+        max-width: 40%;
+    }
+    .top01 {
+        width: 100%;
+        min-width: 100%;
+        background-size: contain;
+        height: auto;
+        padding: 20px 0px;
+    }
+    .wrap_in {
+        width: 98%;
+        min-width: 98%;
+        margin: 0 auto;
+    }
+    .topsec {
+        width: 100%;
+        min-width: 100%;
+    }
+    .top01 img {
+        max-width: 50%;
+    }
+    .top_txt01 {
+        font-size: 1em;
+        text-align: center;
+        line-height: 40px;
+    }
+    .top02_plx, .top04_plx {
+        min-height: 300px;
+    }
+    .top02, .top04 {
+        width: 100%;
+        min-width: 100%;
+    }
+    .top03_a {
+        float: none;
+        margin-bottom: 30px;
+    }
+    .top03_a img, .top03_b img {
+        max-width: 50%;
+    }
+    .menu01 li {
+        float: left;
+        width: 43%;
+        margin: 0 3%;
+    }
+    .menu01 li:hover {
+        height: auto;
+    }
+    .menu01 li a {
+        text-align: center;
+        font-size: 0.9em;
+    }
+    .top03_b {
+        float: none;
+    }
+    .top03_b p {
+        text-align: left;
+    }
+    .top03 {
+        padding: 80px 0 60px 0;
+    }
+    .top05 {
+        width: 100%;
+        min-width: 100%;
+        margin-top: 40px;
+    }
+    .top05in {
+        width: 100%;
+        min-width: 100%;
+        background-size: contain;
+        height: auto;
+    }
+    .top_wd01 {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    .top05_fll {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+    .top05_fll img {
+        max-width: 100%;
+    }
+    .top_new {
+        margin: 40px 0 0 0;
+    }
+    .top_new li a {
+        margin: 0 4% 0 4%;
+        font-size: 0.9em;
+    }
+    .top05_flr {
+        width: 100%;
+        float: none;
+    }
+    .top05 img {
+        max-width: 74%;
+    }
+    .top05_txt {
+        font-size: 0.9em;
+        padding: 40px 0 0 10px;
+    }
+
+    /*pc.html*/
+    .header {
+        width: 100%;
+        min-width: 100%;
+    }
+    .h_ttl {
+        width: 100%;
+        min-width: 100%;
+    }
+    .h_ttl h1, .music_h_ttl h1 {
+        width: 98%;
+        min-width: 98%;
+        padding: 4px 0px;
+        margin: 0 auto;
+        font-size: 0.7em;
+    }
+    .header_in {
+        width: 94%;
+        min-width: 94%;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+    }
+    .h_left {
+        width: 40%;
+        float: left;
+    }
+    .h_right {
+        width: 40%;
+        float: right;
+    }
+    .h_left img, .h_right img {
+        max-width: 100%;
+    }
+    .menu {
+        max-width: 100%;
+        margin: 0 0 0 0;
+        background: url(../../common/img/header/menu_open.png) no-repeat 2% 50%;
+        cursor: pointer;
+        display: block;
+        font-size: 1.1em;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        background-color: #B5B2ED;
+        padding: 10px 0;
+    }
+    .col {
+        background-color: #A2BCE7;
+    }
+    .menu.active {
+        max-width: 100%;
+        margin: 0 0 0 0;
+        background: url(../../common/img/header/menu_close.png) no-repeat 2% 50%;
+        cursor: pointer;
+        display: block;
+        font-size: 1.1em;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        background-color: #B5B2ED;
+        padding: 10px 0;
+    }
+    .pc_gnav, .music_gnav, .cont_gnav {
+        width: 100%;
+        background: #DBC4DB;
+        min-width: 100%;
+        margin: 0 0 0 0;
+        display: none;
+    }
+    .pc_gnav .gnav_in, .music_gnav .gnav_in, .cont_gnav .gnav_in {
+        width: 100%;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+    .pc_gnav .gnav_in li, .music_gnav .gnav_in li, .cont_gnav .gnav_in li {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        border-bottom: 1px solid #fff;
+    }
+    .pc_gnav .gnav_in li a, .music_gnav .gnav_in li a, .cont_gnav .gnav_in li a {
+        color: #fff;
+        font-size: 1em;
+        padding: 10px 0;
+    }
+    .pc_gnav .gnav_in li:last-child, .music_gnav .gnav_in li:last-child, .cont_gnav .gnav_in li:last-child {
+        margin: 0;
+    }
+    .pc_gnav .gnav_in li:hover, .pc_gnav .gnav_in li.active, .music_gnav .gnav_in li:hover, .music_gnav .gnav_in li.active, .cont_gnav .gnav_in li:hover {
+        background: none;
+        height: auto;
+        background-position-y: 0px;
+    }
+    .pc_img01 {
+        position: absolute;
+        top: -2%;
+        height: 40px;
+        max-width: 100%;
+    }
+    .main_image {
+        width: 97%;
+        min-width: 97%;
+        margin: 0 auto;
+    }
+    .pc_content {
+        width: 100%;
+        min-width: 100%;
+    }
+    .pc_main_content {
+        width: 100%;
+        min-width: 100%;
+    }
+    .pc_sec_content {
+        width: 100%;
+        min-width: 100%;
+    }
+    .pc_sec01, .music_sec01 {
+        width: 100%;
+        background-size: cover;
+        height: auto;
+        position: relative;
+    }
+    .pc_sec01 .pc_ttl01 {
+        padding-top: 13%;
+    }
+    .pc_ttl01 {
+        font-size: 1em;
+        padding-top: 0px;
+    }
+    .pc_ttl01 span {
+        padding-top: 10px;
+    }
+    .pc_ttl01 span img {
+        margin: 0 auto;
+        max-width: 90%;
+        display: block;
+    }
+    .pc_txt01 {
+        padding: 20px 0px 20px 0px;
+        font-size: 0.9em;
+    }
+    .pc_txt02 {
+        font-size: 0.9em;
+        padding: 0px 0px 20px 0px;
+        text-align: left;
+    }
+    .pc_sec02 {
+        width: 97%;
+        margin: 0 auto 30px auto;
+    }
+    .pc_sec02 .pc_ttl01 {
+        padding-top: 30px;
+    }
+    .pc_txt03 {
+        font-size: 0.9em;
+        padding-top: 20px;
+        line-height: 28px;
+    }
+    .pc_block01 li {
+        width: 63%;
+        float: none;
+        padding-right: 0px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .pc_block01 li img {
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    .pc_link {
+        width: 100%;
+        padding: 4% 0;
+        bottom: 22%;
+        font-size: 1em;
+    }
+    .pc_block01 {
+        margin: 25px 0 25px 0;
+    }
+    .pc_sec03 {
+        width: 98%;
+        margin: 0 auto;
+    }
+    .pc_sec03 iframe {
+        max-width: 100%;
+        height: 250px;
+    }
+
+    /*pc-about*/
+    .banner {
+        width: 100%;
+        margin: 20px auto;
+        min-width: 100%;
+    }
+    .banner_in {
+        width: 97%;
+        min-width: 97%;
+        margin: 0px auto;
+    }
+    .banner_in img {
+        max-width: 90%;
+    }
+    .pc_main_content {
+        width: 100%;
+        background-size: cover;
+    }
+    .com_img {
+        position: absolute;
+        max-width: 100%;
+        top: -7px;
+    }
+    .pc_about01 {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 0px;
+    }
+    .pc_about01_in {
+        margin-top: 30px;
+    }
+    .pc_about01_fll {
+        float: none;
+    }
+    .w100 {
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    .pc_about01_flr {
+        width: 95%;
+        margin: 0 auto;
+        float: none;
+    }
+    .pc_about01_flr p {
+        font-size: 1em;
+    }
+    .pc_about01_flr p span {
+        font-size: 1em;
+        padding: 15px;
+    }
+    .pc_about02_plx {
+        min-height: 250px;
+        background: transparent;
+    }
+    .pc_about03 {
+        padding: 50px 0;
+    }
+    .pc_about03_blk {
+        width: 100%;
+    }
+    .pc_about03_blk .pc_ttl01 {
+        padding-bottom: 30px;
+    }
+    .pc_calendar {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .pc_about_txt {
+        font-size: 1.2em;
+    }
+    .pc_about_txt2 {
+        font-size: 0.9em;
+    }
+    .pc_map iframe {
+        max-width: 100%;
+    }
+    .pc_calendar iframe {
+        width: 100%;
+    }
+
+    /*pc-price*/
+    .pc_price01 {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+    .pc_price_txt {
+        font-size: 1em;
+        line-height: 30px;
+        padding: 60px 0 0 0;
+    }
+    .pc_ttl02, .music_ttl01, .music_ttl02 {
+        font-size: 0.8em;
+        margin: 0 auto;
+        width: 100%;
+        padding: 12% 0 9% 0;
+    }
+    .pc_ttl02:before, .pc_ttl02:after {
+        background-size: 93%;
+        width: 28%;
+    }
+    .pc_price01in {
+        width: 97%;
+        margin: 0 auto;
+    }
+    .pc_price01in dl dt, .pc_price01in dl dd {
+        font-size: 0.9em;
+    }
+    .pc_price_txt3 {
+        text-align: center;
+        font-size: 1em;
+        padding: 30px 0 0 0;
+    }
+    .pc_price_txt4 {
+        font-size: 0.9em;
+    }
+
+    /*pc-course*/
+    .pc_course01 {
+        padding: 50px 0 30px 0;
+    }
+    .pc_course_blk {
+        padding: 40px 0 0 0;
+    }
+    .pc_course_txt {
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 30px;
+        line-height: 26px;
+        font-size: 0.9em;
+    }
+    .pc_course02 {
+        padding: 40px 0;
+    }
+    .pc_course_blk2 li:first-child {
+        font-size: 1em;
+        padding: 15px 0;
+    }
+    .pc_course_blk2 li:last-child {
+        font-size: 0.9em;
+    }
+    .pc_course_blk2 {
+        padding-bottom: 10px;
+    }
+    .pc_course03 {
+        padding: 40px 0 40px 0;
+    }
+    .pc_course_blk img {
+        max-width: 80% !important;
+    }
+
+    /*pc-apply*/
+    .apply_tb {
+        width: 96%;
+        margin: 30px auto;
+    }
+    .apply_tb tr {
+        width: 100%;
+        margin-bottom: 20px;
+        display: table;
+    }
+    .apply_tb tr th {
+        width: 100%;
+        font-size: 1em;
+        float: left;
+        padding: 0 0 3% 2%;
+    }
+    .apply_tb tr td {
+        width: 100%;
+        float: left;
+        margin-left: 0px;
+    }
+    .apply_tb tr td input, .apply_tb tr td textarea {
+        width: 96%;
+        margin: 0 auto;
+        padding: 12px 5px;
+    }
+    .apply_tb tr th span {
+        float: none;
+    }
+    .pc_apply {
+        padding-bottom: 50px;
+    }
+
+    /*music.html*/
+    .music_bnr {
+        min-width: 100%;
+    }
+    .music_ttl01:before, .music_ttl01:after, .music_ttl02:before, .music_ttl02:after {
+        background-size: 93%;
+        width: 28%;
+        height: 44px;
+    }
+    .music_txt {
+        font-size: 0.9em;
+    }
+    .music_blk01 li {
+        width: 63%;
+        float: none;
+        padding-right: 0px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+    .music_blk01 li img {
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    .music_link {
+        width: 100%;
+        padding: 4% 0;
+        bottom: 22%;
+        font-size: 1em;
+    }
+    .music_blk01 {
+        padding: 25px 0 25px 0;
+    }
+    .music_content {
+        width: 100%;
+        min-width: 100%;
+    }
+    .music_main_content {
+        width: 100%;
+        min-width: 100%;
+        background-size: cover;
+    }
+    .music_sec02 {
+        background: #E1F3FC;
+        padding-bottom: 40px;
+    }
+    .music_sec02in {
+        background-position: 0 12%;
+    }
+    .music_map {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .music_map iframe {
+        max-width: 100%;
+        height: 250px;
+    }
+    .music-palx-content {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    /*music-about*/
+    .music_about01 {
+        width: 98%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .music_about_txt01 {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .music_about_txt01 p {
+        font-size: 0.9em;
+    }
+    .music_about_txt01 p span {
+        font-size: 1.2em;
+        display: block;
+        padding: 15px 0;
+    }
+    .music_img01 {
+        position: absolute;
+        top: -6px;
+        max-width: 100%;
+    }
+    .music_about03_fll {
+        width: 100%;
+        float: none;
+    }
+    .music_about03_flr {
+        width: 100%;
+        float: none;
+    }
+    .music_about_txt02 {
+        font-size: 1em;
+    }
+    .music_about_txt03 {
+        font-size: 0.9em;
+    }
+    .music_about03 {
+        padding-bottom: 0;
+    }
+    .music_calendar iframe {
+        width: 100%;
+    }
+    .music_map01 iframe {
+        width: 100%;
+    }
+
+    /*music-price*/
+    .music_price_txt01 {
+        text-align: center;
+        font-size: 1em;
+        padding: 60px 0 0 0;    /* line-height: 20px; */
+    }
+    .music_price01 {
+        width: 98%;
+        margin: 0 auto;
+    }
+    .music_price_txt02 {
+        padding: 0 0 0 3%;
+        line-height: 28px;
+        font-size: 0.9em;
+    }
+    .music_price01 .music_ttl01 {
+        padding: 50px 0 30px 0;
+    }
+    .music_price_pad {
+        padding: 40px 0 40px 0;
+    }
+    .music_price_pad img {
+        max-width: 40%;
+    }
+
+    /*music-course*/
+    .music_course_txt01 {
+        width: 97%;
+        margin: 0 auto;
+        font-size: 0.9em;
+        padding: 40px 0 0 0;
+    }
+    .music_course_ul {
+        margin: 30px 0;
+    }
+    .music_course_ul li:first-child, .music_course_ul2 li:first-child {
+        font-size: 1em;
+    }
+    .music_course_ul li:last-child, .music_course_ul2 li:last-child {
+        font-size: 0.9em;
+    }
+    .music_course_ul2 {
+        width: 97%;
+        margin: 20px auto;
+    }
+    .music_course01in .pad01 {
+        padding-top: 10px;
+    }
+    .music_course01 {
+        padding: 30px 0 30px 0;
+    }
+    .music_course01 .music_ttl01 {
+        padding: 45px 0 40px 0;
+    }
+    .music_course02 {
+        padding: 30px 0 30px 0;
+    }
+    .music_course02 .music_course_txt01 {
+        padding: 40px 0 0 0;
+    }
+    .music_course01 img, .music_course02 img {
+        max-width: 75% !important;
+    }
+    .music_course01 .music_ttl01, .music_course02 .music_ttl01 {
+        padding: 2% 0 9% 0;
+    }
+
+    /*music-apply*/
+    .music_apply_txt01 {
+        font-size: 0.9em;
+    }
+    .music_apply_tb {
+        width: 96%;
+        margin: 30px auto 0 auto;
+    }
+    .music_apply_tb tr {
+        width: 100%;
+        margin-bottom: 20px;
+        display: table;
+    }
+    .music_apply_tb tr th {
+        width: 100%;
+        font-size: 1em;
+        float: left;
+        padding: 0 0 3% 2%;
+    }
+    .music_apply_tb tr td {
+        width: 100%;
+        float: left;
+        padding-left: 0px;
+        margin-top: 10px;
+    }
+    .music_apply_tb tr td.music_input01 input, .music_apply_tb tr td textarea {
+        width: 96%;
+        margin: 0 auto;
+        padding: 12px 5px;
+    }
+    .music_apply_tb tr th span {
+        float: none;
+    }
+    .radio_01 {
+        width: 40%;
+        padding: 0 0 0 2%;
+        float: left;
+    }
+    .music_btn {
+        padding-bottom: 40px;
+    }
+
+    /*contact*/
+    .cont_gnav {
+        width: 100%;
+        background: #DBC4DB;
+        min-width: 100%;
+        margin: 0 0 0 0;
+        display: none;
+    }
+    .cont_gnav .gnav_in {
+        width: 100%;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+    .cont_gnav .gnav_in li {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        border-bottom: 1px solid #fff;
+    }
+    .cont_gnav .gnav_in li a {
+        color: #fff;
+        font-size: 1em;
+        padding: 10px 0;
+        display: block;
+    }
+    .cont_gnav .gnav_in li:last-child {
+        margin: 0;
+    }
+    .cont_gnav .gnav_in li a:hover {
+        opacity: 1;
+    }
+
+    /*music-conert*/
+    .music_concert_txt01 {
+        padding: 30px 0 50px 0;
+        font-size: 0.9em;
+    }
+    .concert_blk01 {
+        width: 96%;
+        margin: 0 auto;
+    }
+    .concert_blk01 ul {
+        width: 90%;
+        float: none;
+        margin: 30px auto 35px auto;
+    }
+    .concert_txt01 {
+        font-size: 0.9em;
+        padding: 0 0 30px 47px;
+    }
+    .concert_txt02 {
+        position: relative;
+        font-size: 0.9em;
+        padding: 0 0 0 47px;
+    }
+    .music_mp3 {
+        width: 255px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    /*footer*/
+    .top_footer {
+        width: 100%;
+        min-width: 100%;
+        margin-top: 50px;
+    }
+    .topft_in {
+        width: 100%;
+        min-width: 100%;
+        margin: 0 auto;
+    }
+    .footer {
+        width: 100%;
+        min-width: 100%;
+        border-bottom: 10px solid #B5B2ED;
+        margin-top: 30px;
+    }
+    .music_ft {
+        border-bottom: 10px solid #A2BCE7;
+    }
+    .footer_in {
+        width: 96%;
+        min-width: 96%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .copy {
+        text-align: center;
+        font-family: "游ゴシック";
+        padding: 15px 0 0 0;
+    }
+    .music_ft_txt a, .ft_txt a {
+        font-size: 0.8em;
+    }
+    .pc-palx-content {
+        width: 100%;
+        min-width: 100%;
+    }
+    .pc-palx-content .pc-primary-section {
+        min-height: 100%;
+        position: relative;
+        width: 100%;
+        max-height: 70px;
+        overflow: hidden;
+    }
+    .music-palx-content .music-primary-section {
+        min-height: 100%;
+        position: relative;
+        width: 100%;
+        max-height: 70px;
+        overflow: hidden;
+    }
+}

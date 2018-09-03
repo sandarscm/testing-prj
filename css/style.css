@@ -1,0 +1,106 @@
+
+/* -------------------------------- 
+
+Main Components
+
+-------------------------------- */
+/* body:after, */
+body:before {
+    content: "";
+    position: fixed;
+    left: 50%;
+    z-index: 1;
+    width: 100vh;
+    height: 100vh;
+    margin-left: -50vh;
+    transition: all .4s ease-in-out;
+    transform: translate(50vh 50vh 50vh);
+    transform: scale(0);
+    border-radius: 50%;
+    background-color: #a6c46b;
+
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+body.page-is-changing:before {
+    transition: all .4s ease-in-out;
+    transform: translate(50vh 50vh 50vh);
+    transform: scale(3);
+}
+
+main {
+    height: 100vh;
+}
+main .cd-main-content {
+    position: relative;
+    height: 100vh;
+}
+main .cd-main-content > div {
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+}
+
+.cd-loading-bar:after,
+.cd-loading-bar:before {
+    content: "";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    -webkit-transition: opacity .15s, visibility 0s .15s;
+            transition: opacity .15s, visibility 0s .15s;
+    opacity: 0;
+    border-radius: 50%;
+}
+
+.cd-loading-bar:after {
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px);
+    -webkit-animation: moveRight .6s linear infinite alternate;
+            animation: moveRight .6s linear infinite alternate;
+    background: #6cc88a;
+}
+
+.cd-loading-bar:before {
+    -webkit-transform: translateX(20px);
+            transform: translateX(20px);
+    -webkit-animation: moveLeft .6s linear infinite alternate;
+            animation: moveLeft .6s linear infinite alternate;
+    background: #4fc3f7;
+}
+
+@-webkit-keyframes moveRight {
+    to {
+        -webkit-transform: translateX(20px);
+    }
+}
+
+@keyframes moveRight {
+    to {
+        transform: translateX(20px);
+    }
+}
+
+@-webkit-keyframes moveLeft {
+    to {
+        -webkit-transform: translateX(-20px);
+    }
+}
+
+@keyframes moveLeft {
+    to {
+        transform: translateX(-20px);
+    }
+}
+
+.page-is-changing .cd-loading-bar:after,
+.page-is-changing .cd-loading-bar:before {
+    visibility: visible;
+    -webkit-transition: opacity .3s;
+            transition: opacity .3s;
+    opacity: 1;
+}
